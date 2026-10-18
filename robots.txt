@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://napoli-sicura.netlify.app/sitemap.xml

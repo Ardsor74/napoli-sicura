@@ -52,5 +52,16 @@ ul.plain{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:6px
 <div><h3>Il garage è davvero sicuro?</h3><p>Ti diciamo cosa dichiara ogni gestore: coperto, custodito, videosorvegliato. Nessuna guida può garantire l'assenza di furti o danni.</p></div>
 <div><h3>Come sono stati scelti hotel e ristoranti?</h3><p>Hotel, B&B e guest house vengono da Booking.com, con punteggio e numero di recensioni. I locali da guide gastronomiche come la Guida Michelin, Scatti di Gusto e DoEatBetter. Nessuna struttura ha pagato per comparire.</p></div>
 <div><h3>Ricevo aggiornamenti?</h3><p>La guida è una fotografia dei dati alla data indicata. Se qualcosa è cambiato, la scheda del gestore è sempre la fonte da controllare.</p></div></section>
-<p class="foot">Dati controllati il 18 ottobre 2026. Parcheggi: schede pubbliche dei gestori (ParkingMyCar e Parclick). Hotel, B&amp;B e guest house: punteggi, recensioni, prezzi d'esempio e dotazioni dichiarate su Booking.com. Locali e consigli di zona: Guida Michelin, Scatti di Gusto, DoEatBetter, Nomadotravel, Voloscontato, Travel365, Italia.it, Napolike, Idealista e Wikipedia. Orari, prezzi e disponibilità possono cambiare: conferma sempre con il gestore. Napoli Sicura è una guida indipendente, senza accordi commerciali con le strutture citate, e non garantisce l'assenza di furti o danni.</p>
-</main></body></html>
+<p class="foot">Dati controllati il 18 ottobre 2026. Parcheggi: schede pubbliche dei gestori (ParkingMyCar e Parclick). Hotel, B&amp;B e guest house: punteggi, recensioni, prezzi d'esempio e dotazioni dichiarate su Booking.com. Locali e consigli di zona: Guida Michelin, Scatti di Gusto, DoEatBetter, Nomadotravel, Voloscontato, Travel365, Italia.it, Napolike, Idealista e Wikipedia. Orari, prezzi e disponibilità possono cambiare: conferma sempre con il gestore. Napoli Sicura è una guida indipendente, senza accordi commerciali con le strutture citate, e non garantisce l'assenza di furti o danni. Privacy: se accetti i cookie statistici usiamo Google Analytics con IP anonimizzato per capire quante persone visitano il sito; puoi rifiutare senza alcuna conseguenza.</p>
+</main><div id="ck" style="display:none;position:fixed;left:0;right:0;bottom:0;background:#1f2937;color:#fff;padding:14px 16px;font:14px/1.4 system-ui,sans-serif;z-index:9999"><span>Usiamo Google Analytics (statistiche anonime) solo se accetti. Nessun dato personale viene venduto. </span><button id="ck-y" style="margin:6px 8px 0 0;padding:8px 14px;border:0;border-radius:6px;background:#fff;color:#111;font-weight:600">Accetta</button><button id="ck-n" style="margin-top:6px;padding:8px 14px;border:1px solid #fff;border-radius:6px;background:transparent;color:#fff">Rifiuta</button></div>
+<script>
+(function(){var GA_ID="G-LPQ09K4VTG",K="ns_cookie";
+function load(){if(window.__ga)return;window.__ga=1;var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function g(){dataLayer.push(arguments)}window.gtag=g;g("js",new Date());g("config",GA_ID,{anonymize_ip:true})}
+var v=null;try{v=localStorage.getItem(K)}catch(e){}
+var b=document.getElementById("ck");
+if(v==="accepted"){load()}else if(!v){b.style.display="block"}
+document.getElementById("ck-y").onclick=function(){try{localStorage.setItem(K,"accepted")}catch(e){}b.style.display="none";load()};
+document.getElementById("ck-n").onclick=function(){try{localStorage.setItem(K,"rejected")}catch(e){}b.style.display="none"};
+})();
+</script>
+</body></html>
